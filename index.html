@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day3</title>
+</head>
+<body>
+    <!--1. write a code to insert an image -->
+    <!-- adding image we have two paths that are absolute path and relative path  -->
+    <!-- the path which is taken from internet by copying image address,is known as absolute path -->
+    <!-- the path in which created location in the current directory is known as relative path -->
+    <img src="https://tse1.mm.bing.net/th?id=OIP.-0st2aghW50I_StSD_BwVQHaEK&pid=Api&P=0" alt=""><br>
+    <img src="./pandu.jpg" alt="">
+    <!-- 2.create a form contain input fields like name age and contact -->
+    <form action="">
+        <label for="name">name:</label>
+        <input type="text" name="name" placeholder="enter your name" id="name" required><br>
+        <label for="age">age:</label>
+        <input type="date" name="age" placeholder="enter your age" id="age" required><br>
+        <label for="contact">contact:</label>
+        <input type="number" name="contact" placeholder="enter your contact" id="contact" required><br>
+        <input type="submit" value="submit"><br><br>
+    </form>
+    <!-- 3.create a table and explain how to achieve colspan -->
+    <!-- &also about rowspan -->
+    <table border="1">
+        <tr>
+            <th>name</th>
+            <th colspan="2">designation</th>
+        </tr>
+        <tr>
+            <td rowspan="2">pavan</td>
+            <td>full stack</td>
+            <td>developer</td>
+        </tr>
+        <tr>
+            
+            <td>btech</td>
+            <td>student</td>
+        </tr>
+    </table><br><br>
+   <!-- 4. create a radio button(mern mean : course) and checkbox for (html,css,react,node ;technology),and explain the difference between these two -->
+    <!-- radio button -->
+   <label for="course">COURSE:</label><br>
+   <input type="radio" name="course" id="mern">mern <br>
+   <input type="radio" name="course" id="mean">mean <br><br>
+     
+   <!-- checkbox  -->
+   <label for="technology">TECHOLOGY:</label><br>
+   <input type="checkbox" name="technology" id="html">html <br>
+   <input type="checkbox" name="technology" id="css">css <br>
+   <input type="checkbox" name="technology" id="react">react <br>
+   <input type="checkbox" name="technology" id="node">node<br>
+   <!-- in html,the main difference between radio button and checkbox are ,we can select only one required option from the given option of radio button, we can select multiple number of options from checkbox. -->
+</body>
+</html>
